@@ -1,0 +1,260 @@
+﻿[2015.09.19-04.29.47:781][  0]Log file open, 09/19/15 00:29:47
+[2015.09.19-04.29.47:781][  0]LogInit:Display: Running engine for game: SR2L
+[2015.09.19-04.29.47:781][  0]LogInit:Display: RandInit(2055124744) SRandInit(2055124744).
+[2015.09.19-04.29.47:781][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.19-04.29.47:781][  0]LogStats: Stats thread started at 0.072741
+[2015.09.19-04.29.47:781][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.09.19-04.29.47:781][  0]LogInit: API Version: 2672455
+[2015.09.19-04.29.47:781][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.09.19-04.29.47:781][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.19-04.29.47:781][  0]LogInit: Build Configuration: Development
+[2015.09.19-04.29.47:781][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.19-04.29.47:781][  0]LogInit: Command line:  
+[2015.09.19-04.29.47:781][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.19-04.29.47:781][  0]LogInit: Rocket: 1
+[2015.09.19-04.29.47:790][  0]LogInit: Using libcurl 7.41.0
+[2015.09.19-04.29.47:790][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.19-04.29.47:790][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.19-04.29.47:790][  0]LogInit:  - other features:
+[2015.09.19-04.29.47:790][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.19-04.29.47:790][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.19-04.29.47:790][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.19-04.29.47:790][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.19-04.29.47:790][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.19-04.29.47:790][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.19-04.29.47:790][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.19-04.29.47:790][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.19-04.29.47:790][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.19-04.29.47:790][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.19-04.29.47:797][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.19-04.29.47:805][  0]LogInit: Object subsystem initialized
+[2015.09.19-04.29.47:806][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.19-04.29.47:806][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.19-04.29.47:814][  0]LogInit: Computer: M543
+[2015.09.19-04.29.47:814][  0]LogInit: User: kquigley
+[2015.09.19-04.29.47:814][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.19-04.29.47:814][  0]LogInit: High frequency timer resolution =2.630781 MHz
+[2015.09.19-04.29.47:814][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.19-04.29.47:814][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.19-04.29.47:814][  0]LogMemory: Process Physical Memory: 55.71 MB used, 55.71 MB peak
+[2015.09.19-04.29.47:814][  0]LogMemory: Process Virtual Memory: 60.11 MB used, 60.11 MB peak
+[2015.09.19-04.29.47:814][  0]LogMemory: Physical Memory: 5139.40 MB used, 16317.72 MB total
+[2015.09.19-04.29.47:814][  0]LogMemory: Virtual Memory: 341.98 MB used, 8388608.00 MB total
+[2015.09.19-04.29.47:853][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.09.19-04.29.48:499][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD FirePro M4000 (Feature Level 11_0)
+[2015.09.19-04.29.48:499][  0]LogD3D11RHI: Adapter has 995MB of dedicated video memory, 0MB of dedicated system memory, and 7902MB of shared system memory, 1 output[s]
+[2015.09.19-04.29.48:499][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.19-04.29.48:503][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.19-04.29.48:503][  0]LogRHI: Texture pool is 696 MB (70% of 995 MB)
+[2015.09.19-04.29.48:531][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.09.19-04.29.48:540][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Intermediate/Shaders/WorkingDirectory/7960/).
+[2015.09.19-04.29.48:540][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Intermediate/Shaders/tmp/9C4B4471456569D4C280F78E73B3353C/'.
+[2015.09.19-04.29.48:540][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.19-04.29.49:750][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.19-04.29.49:756][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.19-04.29.49:761][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.19-04.29.49:766][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.19-04.29.49:771][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.19-04.29.49:774][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.19-04.29.49:778][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.19-04.29.49:781][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.19-04.29.49:785][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.19-04.29.49:788][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.19-04.29.49:792][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.19-04.29.49:795][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.19-04.29.49:796][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.19-04.29.49:813][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.19-04.29.49:816][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.19-04.29.49:820][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.19-04.29.49:823][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.19-04.29.49:823][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.19-04.29.49:907][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.19-04.29.49:948][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Class2016/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.19-04.29.49:948][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Class2016/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.19-04.29.49:948][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.19-04.29.49:948][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.19-04.29.49:949][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.19-04.29.49:949][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.19-04.29.50:099][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.19-04.29.50:110][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Class2016/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.19-04.29.50:297][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.19-04.29.50:297][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.19-04.29.50:322][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.19-04.29.50:322][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.19-04.29.50:677][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.19-04.29.51:348][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.19-04.29.51:440][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2015.09.19-04.29.51:608][  0]SourceControl: Info Source control is disabled
+[2015.09.19-04.29.51:639][  0]SourceControl: Info Source control is disabled
+[2015.09.19-04.29.51:651][  0]SourceControl: Info Source control is disabled
+[2015.09.19-04.29.51:662][  0]SourceControl: Info Source control is disabled
+[2015.09.19-04.29.51:814][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.19-04.29.51:893][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.19-04.29.51:893][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.09.19-04.29.51:949][  0]LogEngine: Initializing Engine...
+[2015.09.19-04.29.51:951][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.09.19-04.29.51:962][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.09.19-04.29.52:089][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.19-04.29.52:096][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.19-04.29.52:192][  0]LogInit: FAudioDevice initialized.
+[2015.09.19-04.29.52:214][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Class2016/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.19-04.29.52:216][  0]LogInit: Texture streaming: Enabled
+[2015.09.19-04.29.52:222][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.19-04.29.52:222][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.09.19-04.29.52:222][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId f06af28e44af78c68f6fb4b9c978cff0|1399726e6de04195913aee01235a0998|b027d75e-97b4-46e0-b1fb-f0de01022484
+[2015.09.19-04.29.52:222][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.19-04.29.52:243][  0]LogInit: Transaction tracking system initialized
+[2015.09.19-04.29.52:272][  0]BlueprintLog: New page: Editor Load
+[2015.09.19-04.29.52:353][  0]LocalizationService: Info Localization service is disabled
+[2015.09.19-04.29.52:414][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/ThirdPersonOverview'
+[2015.09.19-04.29.52:414][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/ThirdPersonOverview'
+[2015.09.19-04.29.52:414][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPerson/ThirdPersonOverview.ThirdPersonOverview_C'
+[2015.09.19-04.29.52:594][  0]LogConsoleResponse:Display: 
+[2015.09.19-04.29.52:702][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.19-04.29.52:757][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Class2016/Documents/Unreal Projects/SR2L/Content/' took 0.01s
+[2015.09.19-04.29.52:757][  0]SourceControl: Info Source control is disabled
+[2015.09.19-04.29.52:757][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.19-04.29.52:757][  0]LightingResults: New page: Lighting Build
+[2015.09.19-04.29.52:761][  0]MapCheck: New page: Map Check
+[2015.09.19-04.29.52:761][  0]LightingResults: New page: Lighting Build
+[2015.09.19-04.29.52:770][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002084E160
+[2015.09.19-04.29.53:298][  0]LogLinker:Warning: Asset '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Maps/LayerInfo/Desert_LayerInfo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.19-04.29.53:299][  0]LogLinker:Warning: Asset '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Maps/LayerInfo/Track_LayerInfo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.19-04.29.53:652][  0]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2015.09.19-04.29.53:678][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.19-04.29.53:679][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.19-04.29.53:737][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.145ms to complete.
+[2015.09.19-04.29.53:737][  0]LogFileHelpers: Loading map 'VehicleAdvExampleMap' took 0.980
+[2015.09.19-04.29.53:838][  0]LogCollectionManager: Loaded 0 collections in 0.002036 seconds
+[2015.09.19-04.29.53:878][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Class2016/Documents/Unreal Projects/SR2L/Saved/Collections/' took 0.01s
+[2015.09.19-04.29.53:878][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Class2016/Documents/Unreal Projects/SR2L/Content/Developers/kquigley/Collections/' took 0.01s
+[2015.09.19-04.29.53:878][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Class2016/Documents/Unreal Projects/SR2L/Content/Collections/' took 0.01s
+[2015.09.19-04.29.53:878][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 1867 classes and 333 folders.
+[2015.09.19-04.29.53:885][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.09.19-04.29.53:891][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.19-04.29.53:932][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.19-04.29.53:936][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.19-04.29.53:961][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.19-04.29.53:964][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.19-04.29.53:984][  0]LogLoad: Full Startup: 6.71 seconds (BP compile: 0.19 seconds)
+[2015.09.19-04.29.54:078][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.09.19-04.29.54:250][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.09.19-04.29.54:627][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.09.19-04.29.54:932][  6]LogAssetRegistry: Asset discovery search completed in 3.5025 seconds
+[2015.09.19-04.29.54:932][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.19-04.29.54:932][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2015.09.19-04.29.58:725][ 55]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Class2016/Documents/Blender/ExpansionJam/car0.fbx)
+[2015.09.19-04.29.58:738][ 55]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.09.19-04.29.58:738][ 55]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2015.09.19-04.29.58:738][ 55]LogFbx: ItemName: Geometry, ItemCount : 16
+[2015.09.19-04.29.58:738][ 55]LogFbx: ItemName: Model, ItemCount : 18
+[2015.09.19-04.29.58:744][ 55]LogFbx: Loading FBX Scene from ../../../../../../Users/Class2016/Documents/Blender/ExpansionJam/car0.fbx
+[2015.09.19-04.29.58:847][ 55]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.19-04.30.40:450][ 55]LogFbx: Loading FBX Scene from ../../../../../../Users/Class2016/Documents/Blender/ExpansionJam/car0.fbx
+[2015.09.19-04.30.40:523][ 55]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.19-04.30.40:527][ 55]LogFbx:Warning: Triangulating static mesh Trunk
+[2015.09.19-04.30.42:832][ 55]LogStaticMesh: Building static mesh car0_Trunk...
+[2015.09.19-04.30.43:099][ 55]LogStaticMesh: Built static mesh [0.490760.2s] /Game/VehicleAdvBP/Blueprints/car0_Trunk.car0_Trunk
+[2015.09.19-04.30.43:469][ 55]LogStaticMesh:Warning: car0_Trunk has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.30.43:493][ 55]LogFbx:Warning: Triangulating static mesh Shifter_handle
+[2015.09.19-04.30.45:587][ 55]LogStaticMesh: Building static mesh car0_Shifter_handle...
+[2015.09.19-04.30.45:829][ 55]LogStaticMesh: Built static mesh [0.288649.2s] /Game/VehicleAdvBP/Blueprints/car0_Shifter_handle.car0_Shifter_handle
+[2015.09.19-04.30.45:908][ 55]LogStaticMesh:Warning: car0_Shifter_handle has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.30.45:914][ 55]LogFbx:Warning: Triangulating static mesh Shifter_shaft
+[2015.09.19-04.30.45:967][ 55]LogStaticMesh: Building static mesh car0_Shifter_shaft...
+[2015.09.19-04.30.45:975][ 55]LogStaticMesh: Built static mesh [0.008884.2s] /Game/VehicleAdvBP/Blueprints/car0_Shifter_shaft.car0_Shifter_shaft
+[2015.09.19-04.30.46:018][ 55]LogFbx:Warning: Triangulating static mesh Shifter_wheel
+[2015.09.19-04.30.46:103][ 55]LogStaticMesh: Building static mesh car0_Shifter_wheel...
+[2015.09.19-04.30.46:112][ 55]LogStaticMesh: Built static mesh [0.041337.2s] /Game/VehicleAdvBP/Blueprints/car0_Shifter_wheel.car0_Shifter_wheel
+[2015.09.19-04.30.46:123][ 55]LogFbx:Warning: Triangulating static mesh Shifter_base
+[2015.09.19-04.30.47:196][ 55]LogStaticMesh: Building static mesh car0_Shifter_base...
+[2015.09.19-04.30.47:306][ 55]LogStaticMesh: Built static mesh [0.186293.2s] /Game/VehicleAdvBP/Blueprints/car0_Shifter_base.car0_Shifter_base
+[2015.09.19-04.30.47:379][ 55]LogFbx:Warning: Triangulating static mesh Windshield
+[2015.09.19-04.30.47:471][ 55]LogStaticMesh: Building static mesh car0_Windshield...
+[2015.09.19-04.30.47:474][ 55]LogStaticMesh: Built static mesh [0.067533.2s] /Game/VehicleAdvBP/Blueprints/car0_Windshield.car0_Windshield
+[2015.09.19-04.30.47:504][ 55]LogFbx:Warning: Triangulating static mesh Wheel
+[2015.09.19-04.30.49:734][ 55]LogStaticMesh: Building static mesh car0_Wheel...
+[2015.09.19-04.30.49:983][ 55]LogStaticMesh: Built static mesh [0.308742.2s] /Game/VehicleAdvBP/Blueprints/car0_Wheel.car0_Wheel
+[2015.09.19-04.30.50:069][ 55]LogFbx:Warning: Triangulating static mesh Wheel_connect
+[2015.09.19-04.30.50:580][ 55]LogStaticMesh: Building static mesh car0_Wheel_connect...
+[2015.09.19-04.30.50:632][ 55]LogStaticMesh: Built static mesh [0.118655.2s] /Game/VehicleAdvBP/Blueprints/car0_Wheel_connect.car0_Wheel_connect
+[2015.09.19-04.30.50:633][ 55]LogStaticMesh:Warning: car0_Wheel_connect has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.30.50:641][ 55]LogFbx:Warning: Triangulating static mesh Seat_FR
+[2015.09.19-04.30.50:709][ 55]LogStaticMesh: Building static mesh car0_Seat_FR...
+[2015.09.19-04.30.50:718][ 55]LogStaticMesh: Built static mesh [0.030426.2s] /Game/VehicleAdvBP/Blueprints/car0_Seat_FR.car0_Seat_FR
+[2015.09.19-04.30.50:762][ 55]LogStaticMesh:Warning: car0_Seat_FR has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.30.50:766][ 55]LogFbx:Warning: Triangulating static mesh Seat_FL
+[2015.09.19-04.30.50:859][ 55]LogStaticMesh: Building static mesh car0_Seat_FL...
+[2015.09.19-04.30.50:868][ 55]LogStaticMesh: Built static mesh [0.056183.2s] /Game/VehicleAdvBP/Blueprints/car0_Seat_FL.car0_Seat_FL
+[2015.09.19-04.30.50:869][ 55]LogStaticMesh:Warning: car0_Seat_FL has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.30.50:876][ 55]LogFbx:Warning: Triangulating static mesh Seat_back
+[2015.09.19-04.30.51:040][ 55]LogStaticMesh: Building static mesh car0_Seat_back...
+[2015.09.19-04.30.51:068][ 55]LogStaticMesh: Built static mesh [0.072629.2s] /Game/VehicleAdvBP/Blueprints/car0_Seat_back.car0_Seat_back
+[2015.09.19-04.30.51:087][ 55]LogStaticMesh:Warning: car0_Seat_back has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.30.51:092][ 55]LogFbx:Warning: Triangulating static mesh handle_BL
+[2015.09.19-04.30.53:236][ 55]LogStaticMesh: Building static mesh car0_handle_BL...
+[2015.09.19-04.30.53:471][ 55]LogStaticMesh: Built static mesh [0.310049.2s] /Game/VehicleAdvBP/Blueprints/car0_handle_BL.car0_handle_BL
+[2015.09.19-04.30.53:526][ 55]LogStaticMesh:Warning: car0_handle_BL has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.30.53:533][ 55]LogFbx:Warning: Triangulating static mesh handle_BR
+[2015.09.19-04.30.55:661][ 55]LogStaticMesh: Building static mesh car0_handle_BR...
+[2015.09.19-04.30.55:895][ 55]LogStaticMesh: Built static mesh [0.286221.2s] /Game/VehicleAdvBP/Blueprints/car0_handle_BR.car0_handle_BR
+[2015.09.19-04.30.55:937][ 55]LogStaticMesh:Warning: car0_handle_BR has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.30.55:943][ 55]LogFbx:Warning: Triangulating static mesh handle_FR
+[2015.09.19-04.30.58:103][ 55]LogStaticMesh: Building static mesh car0_handle_FR...
+[2015.09.19-04.30.58:352][ 55]LogStaticMesh: Built static mesh [0.325990.2s] /Game/VehicleAdvBP/Blueprints/car0_handle_FR.car0_handle_FR
+[2015.09.19-04.30.58:421][ 55]LogStaticMesh:Warning: car0_handle_FR has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.30.58:427][ 55]LogFbx:Warning: Triangulating static mesh handle_FL
+[2015.09.19-04.31.00:540][ 55]LogStaticMesh: Building static mesh car0_handle_FL...
+[2015.09.19-04.31.00:774][ 55]LogStaticMesh: Built static mesh [0.266402.2s] /Game/VehicleAdvBP/Blueprints/car0_handle_FL.car0_handle_FL
+[2015.09.19-04.31.00:799][ 55]LogStaticMesh:Warning: car0_handle_FL has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.31.00:807][ 55]LogFbx:Warning: Triangulating static mesh Body
+[2015.09.19-04.31.05:079][ 55]LogStaticMesh: Building static mesh car0_Body...
+[2015.09.19-04.31.07:985][ 55]LogStaticMesh: Built static mesh [2.966024.2s] /Game/VehicleAdvBP/Blueprints/car0_Body.car0_Body
+[2015.09.19-04.31.08:066][ 55]LogStaticMesh:Warning: car0_Body has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning car0_Trunk has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning car0_Shifter_handle has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning car0_Wheel_connect has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning car0_Seat_FR has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning car0_Seat_FL has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning car0_Seat_back has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning car0_handle_BL has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.31.08:097][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:098][ 55]FBXImport:Warning: Warning car0_handle_BR has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.31.08:098][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:098][ 55]FBXImport:Warning: Warning car0_handle_FR has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.31.08:098][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:098][ 55]FBXImport:Warning: Warning car0_handle_FL has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.31.08:098][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:098][ 55]FBXImport:Warning: Warning car0_Body has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.31.08:098][ 55]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.31.08:253][ 56]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2015.09.19-04.31.08:253][ 56]LogSynthBenchmark:Display: ===============
+[2015.09.19-04.31.08:253][ 56]LogSynthBenchmark:Display: Main Processor:
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display:          ... 0.020319 s/Run 'RayIntersect'
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display:          ... 0.022638 s/Run 'Fractal'
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display: 
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 16
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display:   NumberOfCores (logical): 8
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display:   CPU Perf Index 0: 126.0
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display:   CPU Perf Index 1: 126.3
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display:  
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display: Graphics:
+[2015.09.19-04.31.08:296][ 56]LogSynthBenchmark:Display:   Adapter Name: 'AMD FirePro M4000'
+[2015

@@ -1,160 +1,504 @@
-﻿[2015.09.19-03.32.01:896][  0]Log file open, 09/18/15 23:32:01
-[2015.09.19-03.32.01:896][  0]LogInit:Display: Running engine for game: SR2L
-[2015.09.19-03.32.01:896][  0]LogInit:Display: RandInit(77824913) SRandInit(77824914).
-[2015.09.19-03.32.01:896][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.09.19-03.32.01:896][  0]LogStats: Stats thread started at 0.203113
-[2015.09.19-03.32.01:896][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
-[2015.09.19-03.32.01:896][  0]LogInit: API Version: 2672455
-[2015.09.19-03.32.01:896][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
-[2015.09.19-03.32.01:896][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.09.19-03.32.01:896][  0]LogInit: Build Configuration: Development
-[2015.09.19-03.32.01:896][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.09.19-03.32.01:896][  0]LogInit: Command line:  
-[2015.09.19-03.32.01:897][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.09.19-03.32.01:897][  0]LogInit: Rocket: 1
-[2015.09.19-03.32.01:923][  0]LogInit: Using libcurl 7.41.0
-[2015.09.19-03.32.01:923][  0]LogInit:  - built for x86_64-pc-win32
-[2015.09.19-03.32.01:923][  0]LogInit:  - supports SSL with WinSSL
-[2015.09.19-03.32.01:923][  0]LogInit:  - other features:
-[2015.09.19-03.32.01:923][  0]LogInit:      CURL_VERSION_SSL
-[2015.09.19-03.32.01:923][  0]LogInit:      CURL_VERSION_IPV6
-[2015.09.19-03.32.01:923][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.09.19-03.32.01:923][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.09.19-03.32.01:923][  0]LogInit:      CURL_VERSION_IDN
-[2015.09.19-03.32.01:924][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.09.19-03.32.01:924][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.09.19-03.32.01:924][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.09.19-03.32.01:924][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.09.19-03.32.01:924][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.09.19-03.32.01:944][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.09.19-03.32.01:959][  0]LogInit: Object subsystem initialized
-[2015.09.19-03.32.01:963][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.19-03.32.01:963][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.09.19-03.32.01:981][  0]LogInit: Computer: ADAM-ASUS
-[2015.09.19-03.32.01:981][  0]LogInit: User: Adam
-[2015.09.19-03.32.01:981][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.09.19-03.32.01:981][  0]LogInit: High frequency timer resolution =2.338344 MHz
-[2015.09.19-03.32.01:981][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2015.09.19-03.32.01:981][  0]LogMemory: Platform Memory Stats for Windows
-[2015.09.19-03.32.01:981][  0]LogMemory: Process Physical Memory: 54.08 MB used, 54.08 MB peak
-[2015.09.19-03.32.01:981][  0]LogMemory: Process Virtual Memory: 57.33 MB used, 57.33 MB peak
-[2015.09.19-03.32.01:981][  0]LogMemory: Physical Memory: 3898.93 MB used, 16203.17 MB total
-[2015.09.19-03.32.01:981][  0]LogMemory: Virtual Memory: 366.56 MB used, 134217728.00 MB total
-[2015.09.19-03.32.02:067][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2015.09.19-03.32.04:342][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 750M (Feature Level 11_0)
-[2015.09.19-03.32.04:342][  0]LogD3D11RHI: Adapter has 1992MB of dedicated video memory, 0MB of dedicated system memory, and 8101MB of shared system memory, 1 output[s]
-[2015.09.19-03.32.04:362][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2015.09.19-03.32.04:362][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8101MB of shared system memory, 0 output[s]
-[2015.09.19-03.32.04:367][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.09.19-03.32.04:368][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8101MB of shared system memory, 0 output[s]
-[2015.09.19-03.32.04:368][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.09.19-03.32.04:383][  0]LogD3D11RHI: !Direct3DDevice
-[2015.09.19-03.32.04:383][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.09.19-03.32.04:429][  0]LogD3D11RHI: Async texture creation enabled
-[2015.09.19-03.32.04:453][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Adam/Documents/Unreal Projects/SR2L/Intermediate/Shaders/WorkingDirectory/3740/).
-[2015.09.19-03.32.04:453][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Adam/Documents/Unreal Projects/SR2L/Intermediate/Shaders/tmp/160822F442D1DD5C89E48AAFC4E93483/'.
-[2015.09.19-03.32.04:453][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.09.19-03.32.08:371][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.09.19-03.32.08:396][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.09.19-03.32.08:420][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.09.19-03.32.08:445][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.09.19-03.32.08:468][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.09.19-03.32.08:484][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.09.19-03.32.08:498][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.09.19-03.32.08:512][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.09.19-03.32.08:527][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.09.19-03.32.08:543][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.09.19-03.32.08:559][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.09.19-03.32.08:576][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.09.19-03.32.08:580][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.09.19-03.32.08:623][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.09.19-03.32.08:639][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.09.19-03.32.08:654][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.09.19-03.32.08:670][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.09.19-03.32.08:670][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.09.19-03.32.09:103][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.09.19-03.32.09:242][  0]LogDerivedDataCache: Loaded boot cache 0.14s 41MB C:/Users/Adam/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.09.19-03.32.09:242][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Adam/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.09.19-03.32.09:243][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Adam/Documents/Unreal Projects/SR2L/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.09.19-03.32.09:243][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.09.19-03.32.09:243][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Adam/Documents/Unreal Projects/SR2L/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.09.19-03.32.09:243][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.09.19-03.32.09:685][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.09.19-03.32.09:698][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Adam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.09.19-03.32.10:284][  0]LogInit: Selected Device Profile: [Windows]
-[2015.09.19-03.32.10:294][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.09.19-03.32.10:761][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.09.19-03.32.10:761][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.09.19-03.32.11:626][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.09.19-03.32.15:071][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.09.19-03.32.15:304][  0]LogAssetRegistry: FAssetRegistry took 0.0116 seconds to start up
-[2015.09.19-03.32.15:919][  0]SourceControl: Info Source control is disabled
-[2015.09.19-03.32.15:922][  0]SourceControl: Info Source control is disabled
-[2015.09.19-03.32.15:977][  0]SourceControl: Info Source control is disabled
-[2015.09.19-03.32.16:033][  0]SourceControl: Info Source control is disabled
-[2015.09.19-03.32.16:777][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.09.19-03.32.17:160][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2015.09.19-03.32.17:160][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
-[2015.09.19-03.32.17:354][  0]LogEngine: Initializing Engine...
-[2015.09.19-03.32.17:367][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2015.09.19-03.32.17:369][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.09.19-03.32.17:823][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.09.19-03.32.17:839][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.09.19-03.32.18:003][  0]LogInit: FAudioDevice initialized.
-[2015.09.19-03.32.18:050][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/Adam/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.09.19-03.32.18:057][  0]LogInit: Texture streaming: Enabled
-[2015.09.19-03.32.18:082][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.09.19-03.32.18:082][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
-[2015.09.19-03.32.18:082][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b6aeed064c5facbea2fec1a4dfb34289|e8dad8564e6d4f898fb2f14da66fe74c|e1a63e55-60ec-4585-be06-279f35335c9b
-[2015.09.19-03.32.18:082][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.09.19-03.32.18:119][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.19-03.32.18:120][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.09.19-03.32.18:295][  0]LogInit: Transaction tracking system initialized
-[2015.09.19-03.32.18:458][  0]BlueprintLog: New page: Editor Load
-[2015.09.19-03.32.18:905][  0]LocalizationService: Info Localization service is disabled
-[2015.09.19-03.32.19:230][  0]LogConsoleResponse:Display: 
-[2015.09.19-03.32.19:694][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.09.19-03.32.20:002][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Adam/Documents/Unreal Projects/SR2L/Content/' took 0.03s
-[2015.09.19-03.32.20:002][  0]SourceControl: Info Source control is disabled
-[2015.09.19-03.32.20:002][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Adam/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.09.19-03.32.20:005][  0]LightingResults: New page: Lighting Build
-[2015.09.19-03.32.20:019][  0]MapCheck: New page: Map Check
-[2015.09.19-03.32.20:020][  0]LightingResults: New page: Lighting Build
-[2015.09.19-03.32.20:053][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CA31334400
-[2015.09.19-03.32.21:846][  0]LogLinker:Warning: Asset '../../../../../../Users/Adam/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Maps/LayerInfo/Desert_LayerInfo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.09.19-03.32.21:848][  0]LogLinker:Warning: Asset '../../../../../../Users/Adam/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Maps/LayerInfo/Track_LayerInfo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.09.19-03.32.22:731][  0]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
-[2015.09.19-03.32.22:801][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.09.19-03.32.22:802][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.09.19-03.32.23:069][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 267.19ms to complete.
-[2015.09.19-03.32.23:070][  0]LogFileHelpers: Loading map 'VehicleAdvExampleMap' took 3.067
-[2015.09.19-03.32.23:383][  0]LogCollectionManager: Loaded 0 collections in 0.012270 seconds
-[2015.09.19-03.32.23:458][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Adam/Documents/Unreal Projects/SR2L/Saved/Collections/' took 0.01s
-[2015.09.19-03.32.23:458][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Adam/Documents/Unreal Projects/SR2L/Content/Developers/Adam/Collections/' took 0.01s
-[2015.09.19-03.32.23:458][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Adam/Documents/Unreal Projects/SR2L/Content/Collections/' took 0.01s
-[2015.09.19-03.32.23:458][  0]LogContentBrowser: Native class hierarchy populated in 0.0321 seconds. Added 1867 classes and 333 folders.
-[2015.09.19-03.32.23:480][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
-[2015.09.19-03.32.23:518][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
-[2015.09.19-03.32.23:800][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2015.09.19-03.32.23:818][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2015.09.19-03.32.23:996][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.09.19-03.32.24:014][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.09.19-03.32.24:039][  0]LogLoad: Full Startup: 23.91 seconds (BP compile: 0.68 seconds)
-[2015.09.19-03.32.24:221][  0]LogContentStreaming: Texture pool size now 400 MB
-[2015.09.19-03.32.24:654][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
-[2015.09.19-03.32.24:784][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2015.09.19-03.32.25:432][  9]LogAssetRegistry: Asset discovery search completed in 10.1385 seconds
-[2015.09.19-03.32.25:432][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2015.09.19-03.32.25:432][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
-[2015.09.19-03.32.41:466][272]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Adam/Downloads/Car (1).fbx)
-[2015.09.19-03.32.41:512][272]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.09.19-03.32.41:512][272]LogFbx: ItemName: NodeAttribute, ItemCount : 2
-[2015.09.19-03.32.41:512][272]LogFbx: ItemName: Geometry, ItemCount : 16
-[2015.09.19-03.32.41:512][272]LogFbx: ItemName: Model, ItemCount : 18
-[2015.09.19-03.32.41:536][272]LogFbx: Loading FBX Scene from ../../../../../../Users/Adam/Downloads/Car (1).fbx
-[2015.09.19-03.32.41:831][272]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.19-03.32.49:826][272]LogFbx: Loading FBX Scene from ../../../../../../Users/Adam/Downloads/Car (1).fbx
-[2015.09.19-03.32.50:121][272]LogFbx: FBX Scene Loaded Succesfully
-[2015.09.19-03.32.50:136][272]LogFbx:Warning: Triangulating static mesh Trunk
-[2015.09.19-03.32.58:540][272]LogFbx:Warning: Triangulating static mesh Shifter_handle
-[2015.09.19-03
+﻿[2015.09.19-04.34.02:394][  0]Log file open, 09/19/15 00:34:02
+[2015.09.19-04.34.02:394][  0]LogInit:Display: Running engine for game: SR2L
+[2015.09.19-04.34.02:394][  0]LogInit:Display: RandInit(-1569963555) SRandInit(-1569963555).
+[2015.09.19-04.34.02:394][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.19-04.34.02:394][  0]LogStats: Stats thread started at 0.073322
+[2015.09.19-04.34.02:394][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.09.19-04.34.02:394][  0]LogInit: API Version: 2672455
+[2015.09.19-04.34.02:394][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.09.19-04.34.02:394][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.19-04.34.02:394][  0]LogInit: Build Configuration: Development
+[2015.09.19-04.34.02:394][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.19-04.34.02:394][  0]LogInit: Command line:  
+[2015.09.19-04.34.02:394][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.19-04.34.02:394][  0]LogInit: Rocket: 1
+[2015.09.19-04.34.02:404][  0]LogInit: Using libcurl 7.41.0
+[2015.09.19-04.34.02:404][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.19-04.34.02:404][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.19-04.34.02:404][  0]LogInit:  - other features:
+[2015.09.19-04.34.02:404][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.19-04.34.02:404][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.19-04.34.02:404][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.19-04.34.02:404][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.19-04.34.02:404][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.19-04.34.02:404][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.19-04.34.02:404][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.19-04.34.02:404][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.19-04.34.02:404][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.19-04.34.02:404][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.19-04.34.02:412][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.19-04.34.02:420][  0]LogInit: Object subsystem initialized
+[2015.09.19-04.34.02:421][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.19-04.34.02:421][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.19-04.34.02:429][  0]LogInit: Computer: M543
+[2015.09.19-04.34.02:429][  0]LogInit: User: kquigley
+[2015.09.19-04.34.02:429][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.19-04.34.02:429][  0]LogInit: High frequency timer resolution =2.630781 MHz
+[2015.09.19-04.34.02:429][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.09.19-04.34.02:429][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.19-04.34.02:429][  0]LogMemory: Process Physical Memory: 55.70 MB used, 55.70 MB peak
+[2015.09.19-04.34.02:429][  0]LogMemory: Process Virtual Memory: 60.11 MB used, 60.11 MB peak
+[2015.09.19-04.34.02:429][  0]LogMemory: Physical Memory: 5133.30 MB used, 16317.72 MB total
+[2015.09.19-04.34.02:429][  0]LogMemory: Virtual Memory: 341.98 MB used, 8388608.00 MB total
+[2015.09.19-04.34.02:469][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.09.19-04.34.03:119][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD FirePro M4000 (Feature Level 11_0)
+[2015.09.19-04.34.03:119][  0]LogD3D11RHI: Adapter has 995MB of dedicated video memory, 0MB of dedicated system memory, and 7902MB of shared system memory, 1 output[s]
+[2015.09.19-04.34.03:119][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.19-04.34.03:124][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.19-04.34.03:124][  0]LogRHI: Texture pool is 696 MB (70% of 995 MB)
+[2015.09.19-04.34.03:151][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.09.19-04.34.03:162][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Intermediate/Shaders/WorkingDirectory/6792/).
+[2015.09.19-04.34.03:163][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Intermediate/Shaders/tmp/91E0A6464AD71F4B5F4B03B42BCD63A3/'.
+[2015.09.19-04.34.03:163][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.19-04.34.04:390][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.19-04.34.04:395][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.19-04.34.04:400][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.19-04.34.04:405][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.19-04.34.04:410][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.19-04.34.04:414][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.19-04.34.04:417][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.19-04.34.04:421][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.19-04.34.04:424][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.19-04.34.04:427][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.19-04.34.04:431][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.19-04.34.04:435][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.19-04.34.04:435][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.19-04.34.04:452][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.19-04.34.04:455][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.19-04.34.04:458][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.19-04.34.04:462][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.19-04.34.04:462][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.19-04.34.04:545][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.19-04.34.04:587][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Class2016/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.19-04.34.04:587][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Class2016/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.19-04.34.04:587][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.19-04.34.04:587][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.19-04.34.04:587][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.19-04.34.04:587][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.19-04.34.04:738][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.19-04.34.04:749][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Class2016/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.19-04.34.04:938][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.19-04.34.04:939][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.19-04.34.04:964][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.19-04.34.04:964][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.19-04.34.05:314][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.19-04.34.05:990][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.19-04.34.06:083][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2015.09.19-04.34.06:253][  0]SourceControl: Info Source control is disabled
+[2015.09.19-04.34.06:281][  0]SourceControl: Info Source control is disabled
+[2015.09.19-04.34.06:293][  0]SourceControl: Info Source control is disabled
+[2015.09.19-04.34.06:305][  0]SourceControl: Info Source control is disabled
+[2015.09.19-04.34.06:445][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.19-04.34.06:522][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.19-04.34.06:522][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.09.19-04.34.06:579][  0]LogEngine: Initializing Engine...
+[2015.09.19-04.34.06:581][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.09.19-04.34.06:592][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.09.19-04.34.06:726][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.19-04.34.06:734][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.19-04.34.06:785][  0]LogInit: FAudioDevice initialized.
+[2015.09.19-04.34.06:808][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Class2016/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.19-04.34.06:811][  0]LogInit: Texture streaming: Enabled
+[2015.09.19-04.34.06:816][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.19-04.34.06:817][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.09.19-04.34.06:817][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId f06af28e44af78c68f6fb4b9c978cff0|1399726e6de04195913aee01235a0998|b027d75e-97b4-46e0-b1fb-f0de01022484
+[2015.09.19-04.34.06:817][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.19-04.34.06:838][  0]LogInit: Transaction tracking system initialized
+[2015.09.19-04.34.06:869][  0]BlueprintLog: New page: Editor Load
+[2015.09.19-04.34.06:953][  0]LocalizationService: Info Localization service is disabled
+[2015.09.19-04.34.07:013][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/ThirdPersonOverview'
+[2015.09.19-04.34.07:013][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/ThirdPersonOverview'
+[2015.09.19-04.34.07:013][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPerson/ThirdPersonOverview.ThirdPersonOverview_C'
+[2015.09.19-04.34.07:203][  0]LogConsoleResponse:Display: 
+[2015.09.19-04.34.07:311][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.19-04.34.07:365][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Class2016/Documents/Unreal Projects/SR2L/Content/' took 0.01s
+[2015.09.19-04.34.07:365][  0]SourceControl: Info Source control is disabled
+[2015.09.19-04.34.07:365][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.19-04.34.07:365][  0]LightingResults: New page: Lighting Build
+[2015.09.19-04.34.07:368][  0]MapCheck: New page: Map Check
+[2015.09.19-04.34.07:368][  0]LightingResults: New page: Lighting Build
+[2015.09.19-04.34.07:378][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000212AE160
+[2015.09.19-04.34.07:917][  0]LogLinker:Warning: Asset '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Maps/LayerInfo/Desert_LayerInfo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.19-04.34.07:917][  0]LogLinker:Warning: Asset '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Maps/LayerInfo/Track_LayerInfo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.19-04.34.08:262][  0]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2015.09.19-04.34.08:290][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.19-04.34.08:291][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.19-04.34.08:349][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.523ms to complete.
+[2015.09.19-04.34.08:349][  0]LogFileHelpers: Loading map 'VehicleAdvExampleMap' took 0.985
+[2015.09.19-04.34.08:444][  0]LogCollectionManager: Loaded 0 collections in 0.001955 seconds
+[2015.09.19-04.34.08:481][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Class2016/Documents/Unreal Projects/SR2L/Saved/Collections/' took 0.01s
+[2015.09.19-04.34.08:481][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Class2016/Documents/Unreal Projects/SR2L/Content/Developers/kquigley/Collections/' took 0.01s
+[2015.09.19-04.34.08:481][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Class2016/Documents/Unreal Projects/SR2L/Content/Collections/' took 0.01s
+[2015.09.19-04.34.08:481][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 1867 classes and 333 folders.
+[2015.09.19-04.34.08:489][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.09.19-04.34.08:496][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.19-04.34.08:542][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.09.19-04.34.08:549][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.19-04.34.08:582][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.19-04.34.08:585][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.19-04.34.08:605][  0]LogLoad: Full Startup: 6.72 seconds (BP compile: 0.20 seconds)
+[2015.09.19-04.34.08:682][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.09.19-04.34.08:898][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.09.19-04.34.09:221][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.09.19-04.34.09:584][  6]LogAssetRegistry: Asset discovery search completed in 3.5110 seconds
+[2015.09.19-04.34.09:584][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.19-04.34.09:584][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2015.09.19-04.34.13:325][ 38]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Class2016/Documents/Blender/ExpansionJam/car0.fbx)
+[2015.09.19-04.34.13:336][ 38]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.09.19-04.34.13:336][ 38]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2015.09.19-04.34.13:336][ 38]LogFbx: ItemName: Geometry, ItemCount : 16
+[2015.09.19-04.34.13:336][ 38]LogFbx: ItemName: Model, ItemCount : 18
+[2015.09.19-04.34.13:341][ 38]LogFbx: Loading FBX Scene from ../../../../../../Users/Class2016/Documents/Blender/ExpansionJam/car0.fbx
+[2015.09.19-04.34.13:415][ 38]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.19-04.34.21:337][ 38]LogFbx: Loading FBX Scene from ../../../../../../Users/Class2016/Documents/Blender/ExpansionJam/car0.fbx
+[2015.09.19-04.34.21:410][ 38]LogFbx: FBX Scene Loaded Succesfully
+[2015.09.19-04.34.21:413][ 38]LogFbx:Warning: Triangulating static mesh Trunk
+[2015.09.19-04.34.23:545][ 38]LogStaticMesh: Building static mesh car0_Trunk...
+[2015.09.19-04.34.23:769][ 38]LogStaticMesh: Built static mesh [0.261536.2s] /Game/VehicleAdvBP/Blueprints/car0_Trunk.car0_Trunk
+[2015.09.19-04.34.23:861][ 38]LogStaticMesh:Warning: car0_Trunk has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.34.23:871][ 38]LogFbx:Warning: Triangulating static mesh Shifter_handle
+[2015.09.19-04.34.25:980][ 38]LogStaticMesh: Building static mesh car0_Shifter_handle...
+[2015.09.19-04.34.26:209][ 38]LogStaticMesh: Built static mesh [0.278532.2s] /Game/VehicleAdvBP/Blueprints/car0_Shifter_handle.car0_Shifter_handle
+[2015.09.19-04.34.26:283][ 38]LogStaticMesh:Warning: car0_Shifter_handle has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.34.26:291][ 38]LogFbx:Warning: Triangulating static mesh Shifter_shaft
+[2015.09.19-04.34.26:381][ 38]LogStaticMesh: Building static mesh car0_Shifter_shaft...
+[2015.09.19-04.34.26:390][ 38]LogStaticMesh: Built static mesh [0.045020.2s] /Game/VehicleAdvBP/Blueprints/car0_Shifter_shaft.car0_Shifter_shaft
+[2015.09.19-04.34.26:422][ 38]LogFbx:Warning: Triangulating static mesh Shifter_wheel
+[2015.09.19-04.34.26:482][ 38]LogStaticMesh: Building static mesh car0_Shifter_wheel...
+[2015.09.19-04.34.26:491][ 38]LogStaticMesh: Built static mesh [0.016133.2s] /Game/VehicleAdvBP/Blueprints/car0_Shifter_wheel.car0_Shifter_wheel
+[2015.09.19-04.34.26:536][ 38]LogFbx:Warning: Triangulating static mesh Shifter_base
+[2015.09.19-04.34.27:617][ 38]LogStaticMesh: Building static mesh car0_Shifter_base...
+[2015.09.19-04.34.27:727][ 38]LogStaticMesh: Built static mesh [0.180006.2s] /Game/VehicleAdvBP/Blueprints/car0_Shifter_base.car0_Shifter_base
+[2015.09.19-04.34.27:807][ 38]LogFbx:Warning: Triangulating static mesh Windshield
+[2015.09.19-04.34.27:857][ 38]LogStaticMesh: Building static mesh car0_Windshield...
+[2015.09.19-04.34.27:860][ 38]LogStaticMesh: Built static mesh [0.025166.2s] /Game/VehicleAdvBP/Blueprints/car0_Windshield.car0_Windshield
+[2015.09.19-04.34.27:909][ 38]LogFbx:Warning: Triangulating static mesh Wheel
+[2015.09.19-04.34.30:118][ 38]LogStaticMesh: Building static mesh car0_Wheel...
+[2015.09.19-04.34.30:361][ 38]LogStaticMesh: Built static mesh [0.269074.2s] /Game/VehicleAdvBP/Blueprints/car0_Wheel.car0_Wheel
+[2015.09.19-04.34.30:414][ 38]LogFbx:Warning: Triangulating static mesh Wheel_connect
+[2015.09.19-04.34.30:909][ 38]LogStaticMesh: Building static mesh car0_Wheel_connect...
+[2015.09.19-04.34.30:961][ 38]LogStaticMesh: Built static mesh [0.094784.2s] /Game/VehicleAdvBP/Blueprints/car0_Wheel_connect.car0_Wheel_connect
+[2015.09.19-04.34.30:991][ 38]LogStaticMesh:Warning: car0_Wheel_connect has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.34.30:996][ 38]LogFbx:Warning: Triangulating static mesh Seat_FR
+[2015.09.19-04.34.31:073][ 38]LogStaticMesh: Building static mesh car0_Seat_FR...
+[2015.09.19-04.34.31:081][ 38]LogStaticMesh: Built static mesh [0.039444.2s] /Game/VehicleAdvBP/Blueprints/car0_Seat_FR.car0_Seat_FR
+[2015.09.19-04.34.31:103][ 38]LogStaticMesh:Warning: car0_Seat_FR has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.34.31:107][ 38]LogFbx:Warning: Triangulating static mesh Seat_FL
+[2015.09.19-04.34.31:204][ 38]LogStaticMesh: Building static mesh car0_Seat_FL...
+[2015.09.19-04.34.31:213][ 38]LogStaticMesh: Built static mesh [0.059731.2s] /Game/VehicleAdvBP/Blueprints/car0_Seat_FL.car0_Seat_FL
+[2015.09.19-04.34.31:274][ 38]LogStaticMesh:Warning: car0_Seat_FL has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.34.31:278][ 38]LogFbx:Warning: Triangulating static mesh Seat_back
+[2015.09.19-04.34.31:425][ 38]LogStaticMesh: Building static mesh car0_Seat_back...
+[2015.09.19-04.34.31:453][ 38]LogStaticMesh: Built static mesh [0.054525.2s] /Game/VehicleAdvBP/Blueprints/car0_Seat_back.car0_Seat_back
+[2015.09.19-04.34.31:478][ 38]LogStaticMesh:Warning: car0_Seat_back has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.34.31:483][ 38]LogFbx:Warning: Triangulating static mesh handle_BL
+[2015.09.19-04.34.33:630][ 38]LogStaticMesh: Building static mesh car0_handle_BL...
+[2015.09.19-04.34.33:854][ 38]LogStaticMesh: Built static mesh [0.266547.2s] /Game/VehicleAdvBP/Blueprints/car0_handle_BL.car0_handle_BL
+[2015.09.19-04.34.33:948][ 38]LogStaticMesh:Warning: car0_handle_BL has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.34.33:958][ 38]LogFbx:Warning: Triangulating static mesh handle_BR
+[2015.09.19-04.34.36:113][ 38]LogStaticMesh: Building static mesh car0_handle_BR...
+[2015.09.19-04.34.36:336][ 38]LogStaticMesh: Built static mesh [0.281728.2s] /Game/VehicleAdvBP/Blueprints/car0_handle_BR.car0_handle_BR
+[2015.09.19-04.34.36:440][ 38]LogStaticMesh:Warning: car0_handle_BR has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.34.36:450][ 38]LogFbx:Warning: Triangulating static mesh handle_FR
+[2015.09.19-04.34.38:613][ 38]LogStaticMesh: Building static mesh car0_handle_FR...
+[2015.09.19-04.34.38:835][ 38]LogStaticMesh: Built static mesh [0.292018.2s] /Game/VehicleAdvBP/Blueprints/car0_handle_FR.car0_handle_FR
+[2015.09.19-04.34.38:945][ 38]LogStaticMesh:Warning: car0_handle_FR has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.34.38:954][ 38]LogFbx:Warning: Triangulating static mesh handle_FL
+[2015.09.19-04.34.41:093][ 38]LogStaticMesh: Building static mesh car0_handle_FL...
+[2015.09.19-04.34.41:316][ 38]LogStaticMesh: Built static mesh [0.265578.2s] /Game/VehicleAdvBP/Blueprints/car0_handle_FL.car0_handle_FL
+[2015.09.19-04.34.41:388][ 38]LogStaticMesh:Warning: car0_handle_FL has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.34.41:399][ 38]LogFbx:Warning: Triangulating static mesh Body
+[2015.09.19-04.34.45:682][ 38]LogStaticMesh: Building static mesh car0_Body...
+[2015.09.19-04.34.48:609][ 38]LogStaticMesh: Built static mesh [2.975155.2s] /Game/VehicleAdvBP/Blueprints/car0_Body.car0_Body
+[2015.09.19-04.34.48:718][ 38]LogStaticMesh:Warning: car0_Body has degenerate tangent bases which will result in incorrect shading. 
+[2015.09.19-04.34.48:742][ 38]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.09.19-04.34.48:742][ 38]FBXImport:Warning: Warning car0_Trunk has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.34.48:742][ 38]FBXImport:Warning: Warning car0_Shifter_handle has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.34.48:742][ 38]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.34.48:742][ 38]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.09.19-04.34.48:742][ 38]FBXImport:Warning: Warning car0_Wheel_connect has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.34.48:742][ 38]FBXImport:Warning: Warning car0_Seat_FR has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.34.48:742][ 38]FBXImport:Warning: Warning car0_Seat_FL has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.34.48:742][ 38]FBXImport:Warning: Warning car0_Seat_back has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.34.48:742][ 38]FBXImport:Warning: Warning car0_handle_BL has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.34.48:742][ 38]FBXImport:Warning: Warning car0_handle_BR has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.34.48:742][ 38]FBXImport:Warning: Warning car0_handle_FR has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.34.48:742][ 38]FBXImport:Warning: Warning car0_handle_FL has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.34.48:742][ 38]FBXImport:Warning: Warning car0_Body has degenerate tangent bases which will result in incorrect shading.  
+[2015.09.19-04.35.05:600][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2015.09.19-04.35.05:725][570]LogSavePackage: Save=30.240829ms
+[2015.09.19-04.35.05:726][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_Trunk5E9623BA4E6D5A794C6C428A9A334E59.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Trunk.uasset'
+[2015.09.19-04.35.05:727][570]LogSavePackage: Total save time: 32.298394ms
+[2015.09.19-04.35.05:727][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Trunk.uasset
+[2015.09.19-04.35.05:761][570]LogSavePackage: Save=9.524548ms
+[2015.09.19-04.35.05:761][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_Shifter_handle1A81EDCB4C52E97546E563850ECAC217.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Shifter_handle.uasset'
+[2015.09.19-04.35.05:763][570]LogSavePackage: Total save time: 11.411440ms
+[2015.09.19-04.35.05:763][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Shifter_handle.uasset
+[2015.09.19-04.35.05:795][570]LogSavePackage: Save=8.758996ms
+[2015.09.19-04.35.05:795][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_Shifter_shaft7C50286E40EEBEF8F8B14C9DB6BDFB98.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Shifter_shaft.uasset'
+[2015.09.19-04.35.05:796][570]LogSavePackage: Total save time: 10.566063ms
+[2015.09.19-04.35.05:796][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Shifter_shaft.uasset
+[2015.09.19-04.35.05:828][570]LogSavePackage: Save=8.823996ms
+[2015.09.19-04.35.05:828][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_Shifter_wheel3AC8A92246B7A404E45DC38FA47C38B1.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Shifter_wheel.uasset'
+[2015.09.19-04.35.05:830][570]LogSavePackage: Total save time: 10.641705ms
+[2015.09.19-04.35.05:830][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Shifter_wheel.uasset
+[2015.09.19-04.35.05:860][570]LogSavePackage: Save=9.138731ms
+[2015.09.19-04.35.05:860][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_Shifter_baseE4D02DE949C3B152E7967F8BBE84CB3C.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Shifter_base.uasset'
+[2015.09.19-04.35.05:862][570]LogSavePackage: Total save time: 10.989893ms
+[2015.09.19-04.35.05:862][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Shifter_base.uasset
+[2015.09.19-04.35.05:893][570]LogSavePackage: Save=9.066509ms
+[2015.09.19-04.35.05:893][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_WindshieldFEF6A63648498499F6AF3A8B45305ADA.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Windshield.uasset'
+[2015.09.19-04.35.05:894][570]LogSavePackage: Total save time: 10.853432ms
+[2015.09.19-04.35.05:894][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Windshield.uasset
+[2015.09.19-04.35.05:925][570]LogSavePackage: Save=9.769722ms
+[2015.09.19-04.35.05:925][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_Wheel985AE99C4A3869BEA5DBC7B0D9673BFF.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Wheel.uasset'
+[2015.09.19-04.35.05:927][570]LogSavePackage: Total save time: 11.573367ms
+[2015.09.19-04.35.05:927][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Wheel.uasset
+[2015.09.19-04.35.05:958][570]LogSavePackage: Save=9.401011ms
+[2015.09.19-04.35.05:958][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_Wheel_connect92CA56D840E5E2EA7780E6A7647E3690.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Wheel_connect.uasset'
+[2015.09.19-04.35.05:959][570]LogSavePackage: Total save time: 11.259392ms
+[2015.09.19-04.35.05:959][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Wheel_connect.uasset
+[2015.09.19-04.35.05:990][570]LogSavePackage: Save=9.160398ms
+[2015.09.19-04.35.05:990][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_Seat_FRCC6B7FF04A49EC20D6AB86BEE5277E7C.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Seat_FR.uasset'
+[2015.09.19-04.35.05:992][570]LogSavePackage: Total save time: 11.003956ms
+[2015.09.19-04.35.05:992][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Seat_FR.uasset
+[2015.09.19-04.35.06:022][570]LogSavePackage: Save=8.998089ms
+[2015.09.19-04.35.06:022][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_Seat_FL6D42F2A4438E7E79DB829BA599D3B935.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Seat_FL.uasset'
+[2015.09.19-04.35.06:024][570]LogSavePackage: Total save time: 10.893345ms
+[2015.09.19-04.35.06:024][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Seat_FL.uasset
+[2015.09.19-04.35.06:055][570]LogSavePackage: Save=9.168760ms
+[2015.09.19-04.35.06:055][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_Seat_back64973E49470DEBE60566028BBA6B38CC.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Seat_back.uasset'
+[2015.09.19-04.35.06:056][570]LogSavePackage: Total save time: 10.947701ms
+[2015.09.19-04.35.06:056][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Seat_back.uasset
+[2015.09.19-04.35.06:087][570]LogSavePackage: Save=9.339432ms
+[2015.09.19-04.35.06:087][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_handle_BL91798CD442CB3CCFDECD0DBD7B595298.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_handle_BL.uasset'
+[2015.09.19-04.35.06:088][570]LogSavePackage: Total save time: 11.170447ms
+[2015.09.19-04.35.06:088][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_handle_BL.uasset
+[2015.09.19-04.35.06:119][570]LogSavePackage: Save=9.404812ms
+[2015.09.19-04.35.06:119][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_handle_BR10FE5C8E49899892F7F85199D0762A1A.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_handle_BR.uasset'
+[2015.09.19-04.35.06:121][570]LogSavePackage: Total save time: 11.433486ms
+[2015.09.19-04.35.06:121][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_handle_BR.uasset
+[2015.09.19-04.35.06:152][570]LogSavePackage: Save=9.340572ms
+[2015.09.19-04.35.06:152][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_handle_FR915572E149F678FE7DD614A529F06C7E.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_handle_FR.uasset'
+[2015.09.19-04.35.06:154][570]LogSavePackage: Total save time: 11.236969ms
+[2015.09.19-04.35.06:154][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_handle_FR.uasset
+[2015.09.19-04.35.06:184][570]LogSavePackage: Save=9.349315ms
+[2015.09.19-04.35.06:184][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_handle_FLEC94269844E8A639524D3E9E2670B341.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_handle_FL.uasset'
+[2015.09.19-04.35.06:186][570]LogSavePackage: Total save time: 11.283342ms
+[2015.09.19-04.35.06:186][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_handle_FL.uasset
+[2015.09.19-04.35.06:206][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/car0_Body" FILE="../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Body.uasset" SILENT=true
+[2015.09.19-04.35.06:218][570]LogSavePackage: Save=11.004717ms
+[2015.09.19-04.35.06:218][570]LogSavePackage: Moving '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Saved/car0_Body098B6A9749807D890EFB08A701A3A2B7.tmp' to '../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Body.uasset'
+[2015.09.19-04.35.06:220][570]LogSavePackage: Total save time: 12.906816ms
+[2015.09.19-04.35.06:220][570]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Class2016/Documents/Unreal Projects/SR2L/Content/VehicleAdvBP/Blueprints/car0_Body.uasset
+[2015.09.19-04.35.08:334][645]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComp) Not registered. Aborting.
+[2015.09.19-04.35.08:774][646]Cmd: QUIT_EDITOR
+[2015.09.19-04.35.09:096][646]LogExit: Preparing to exit.
+[2015.09.19-04.35.10:430][646]LogExit: Editor shut down
+[2015.09.19-04.35.10:430][646]LogExit: Transaction tracking system shut down
+[2015.09.19-04.35.10:601][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000244C7EC0
+[2015.09.19-04.35.10:602][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027C7E980
+[2015.09.19-04.35.10:602][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000275654E0
+[2015.09.19-04.35.10:603][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DC01BC0
+[2015.09.19-04.35.12:080][646]LogExit: Object subsystem successfully closed.
+[2015.09.19-04.35.12:260][646]LogD3D11RHI: Shutdown
+[2015.09.19-04.35.12:260][646]LogD3D11RHI: CleanupD3DDevice
+[2015.09.19-04.35.12:321][646]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.19-04.35.12:545][646]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.09.19-04.35.12:545][646]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.09.19-04.35.12:545][646]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.09.19-04.35.12:545][646]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.09.19-04.35.12:545][646]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.09.19-04.35.12:558][646]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.09.19-04.35.12:558][646]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.09.19-04.35.12:558][646]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.09.19-04.35.12:558][646]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.09.19-04.35.12:558][646]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.09.19-04.35.12:559][646]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.09.19-04.35.12:559][646]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.09.19-04.35.12:559][646]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.09.19-04.35.12:559][646]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.09.19-04.35.12:559][646]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.09.19-04.35.12:559][646]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.09.19-04.35.12:559][646]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.09.19-04.35.12:559][646]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.09.19-04.35.12:559][646]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.09.19-04.35.12:559][646]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.09.19-04.35.12:559][646]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.09.19-04.35.12:574][646]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.09.19-04.35.12:582][646]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.09.19-04.35.12:582][646]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.09.19-04.35.12:582][646]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.09.19-04.35.12:582][646]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.09.19-04.35.12:994][646]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.09.19-04.35.12:995][646]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.09.19-04.35.12:995][646]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.09.19-04.35.12:995][646]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.09.19-04.35.12:995][646]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.09.19-04.35.12:995][646]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.09.19-04.35.12:995][646]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.09.19-04.35.12:995][646]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.09.19-04.35.13:023][646]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.09.19-04.35.13:023][646]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.09.19-04.35.13:023][646]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.09.19-04.35.13:024][646]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.09.19-04.35.13:024][646]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.09.19-04.35.13:024][646]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.09.19-04.35.13:024][646]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.09.19-04.35.13:075][646]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.09.19-04.35.13:075][646]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.09.19-04.35.13:075][646]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.09.19-04.35.13:075][646]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.09.19-04.35.13:075][646]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.09.19-04.35.13:075][646]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.09.19-04.35.13:088][646]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.09.19-04.35.13:088][646]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.09.19-04.35.13:095][646]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.09.19-04.35.13:095][646]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.09.19-04.35.13:095][646]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.09.19-04.35.13:095][646]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.09.19-04.35.13:095][646]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.09.19-04.35.13:095][646]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.09.19-04.35.13:095][646]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.09.19-04.35.13:291][646]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.09.19-04.35.13:291][646]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.09.19-04.35.13:291][646]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.09.19-04.35.13:291][646]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.09.19-04.35.13:291][646]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.09.19-04.35.13:291][646]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.09.19-04.35.13:291][646]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.09.19-04.35.13:291][646]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.09.19-04.35.13:304][646]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.09.19-04.35.13:304][646]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.09.19-04.35.13:304][646]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.09.19-04.35.13:304][646]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.09.19-04.35.13:304][646]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.09.19-04.35.13:331][646]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.09.19-04.35.13:331][646]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.09.19-04.35.13:331][646]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.09.19-04.35.13:331][646]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.09.19-04.35.13:331][646]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.09.19-04.35.13:346][646]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.09.19-04.35.13:346][646]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.09.19-04.35.13:346][646]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.09.19-04.35.13:346][646]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.09.19-04.35.13:346][646]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.09.19-04.35.13:346][646]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.09.19-04.35.13:361][646]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.09.19-04.35.13:361][646]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.09.19-04.35.13:361][646]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.09.19-04.35.13:361][646]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.09.19-04.35.13:361][646]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.09.19-04.35.13:361][646]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.09.19-04.35.13:361][646]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.09.19-04.35.13:361][646]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.09.19-04.35.13:362][646]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.09.19-04.35.13:363][646]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.09.19-04.35.13:442][646]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.09.19-04.35.13:442][646]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.09.19-04.35.13:442][646]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.09.19-04.35.13:542][646]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.09.19-04.35.13:542][646]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.09.19-04.35.13:542][646]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.09.19-04.35.13:561][646]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.09.19-04.35.13:561][646]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.09.19-04.35.13:584][646]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.09.19-04.35.13:584][646]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.09.19-04.35.13:584][646]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.09.19-04.35.13:584][646]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.09.19-04.35.13:604][646]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.09.19-04.35.13:604][646]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.09.19-04.35.13:716][646]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.09.19-04.35.13:716][646]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.09.19-04.35.13:716][646]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.09.19-04.35.13:716][646]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.09.19-04.35.13:794][646]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.09.19-04.35.13:794][646]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.09.19-04.35.13:794][646]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.09.19-04.35.13:794][646]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.09.19-04.35.13:797][646]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.09.19-04.35.13:797][646]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.09.19-04.35.13:797][646]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.09.19-04.35.13:797][646]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.09.19-04.35.13:797][646]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.09.19-04.35.13:797][646]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.09.19-04.35.13:797][646]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.09.19-04.35.13:797][646]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.09.19-04.35.13:797][646]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.09.19-04.35.13:797][646]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.09.19-04.35.13:798][646]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.09.19-04.35.14:300][646]LogDerivedDataCache: Shutdown
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.09.19-04.35.14:300][646]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.09.19-04.35.14:301][646]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.09.19-04.35.14:301][646]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.09.19-04.35.14:301][646]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.09.19-04.35.14:301][646]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.09.19-04.35.14:301][646]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.09.19-04.35.14:301][646]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.09.19-04.35.14:301][646]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.09.19-04.35.14:301][646]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.09.19-04.35.14:301][646]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.09.19-04.35.14:301][646]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.09.19-04.35.14:301][646]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.09.19-04.35.14:301][646]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.09.19-04.35.16:301][646]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.09.19-04.35.16:301][646]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.09.19-04.35.16:301][646]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.09.19-04.35.16:301][646]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.09.19-04.35.16:301][646]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.09.19-04.35.16:301][646]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.09.19-04.35.16:301][646]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.09.19-04.35.16:302][646]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.09.19-04.35.16:302][646]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.09.19-04.35.16:302][646]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.19-04.35.16:302][646]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.19-04.35.16:302][646]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.19-04.35.16:302][646]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.19-04.35.16:302][646]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.19-04.35.16:302][646]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.19-04.35.16:302][646]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.19-04.35.16:302][646]LogExit: Exiting.
+[2015.09.19-04.35.16:317][646]Log file closed, 09/19/15 00:35:16
